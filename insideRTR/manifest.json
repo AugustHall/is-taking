@@ -56,20 +56,18 @@
   "nacl_modules": [],
   "offline_enabled": true,
   "omnibox": {
-    "keyword": "aString"
+    "keyword": "RTR"
   },
   "permissions": [
     "tabs"
   ],
-  "platforms": "",
   "plugins": [],
   "requirements": {},
   "sandbox": [],
-  "short_name": "Short Name",
+  "short_name": "iRTR",
   "signature": "",
   "tts_engine": {},
-  "update_url": "http://path/to/updateInfo.xml",
-  "version_name": "Beginning",
+  "version_name": "In the beginning",
   "web_accessible_resources": [
     "./assets/*"
   ]
