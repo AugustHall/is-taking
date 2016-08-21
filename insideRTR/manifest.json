@@ -6,7 +6,7 @@
   "__default_locale": "en",
   "description": "Rent the Runway's internal tools and sites.",
   "icons": {
-    "48": "./assets/icons/rtr_square.jpg"
+    "48": "./assets/icons/favicon.ico"
   },
 
   "browser_action": {
