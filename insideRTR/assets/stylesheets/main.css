@@ -1,7 +1,16 @@
 body {
   width: 400px;
+  font-size: 14px;
+}
+
+ul {
+  display: none;
+}
+
+section:hover ul {
+  display: block;
 }
 
 h3 {
-  font: 20px Georgia, sans-serif;
+  font: 1.3em/1.5em Georgia, sans-serif;
 }

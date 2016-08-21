@@ -6,13 +6,13 @@
   "__default_locale": "en",
   "description": "Rent the Runway's internal tools and sites.",
   "icons": {
-    "48": "./assets/icons/favicon.ico"
+    "48": "./assets/icons/rtr_closet.png"
   },
 
   "browser_action": {
     "default_icon": {
-      "19": "./assets/icons/rtr_square.jpg",
-      "38": "./assets/icons/rtr_square.jpg"
+      "19": "./assets/icons/rtr_closet.png",
+      "48": "./assets/icons/rtr_closet.png"
     },
     "default_title": "Inside RTR",
     "default_popup": "rtr-menu.html"
@@ -98,5 +98,7 @@
   "tts_engine": {},
   "update_url": "http://path/to/updateInfo.xml",
   "version_name": "Beginning",
-  "web_accessible_resources": []
+  "web_accessible_resources": [
+    "./assets/*"
+  ]
 }
