@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Inside RTR",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Rent the Runway's internal tools and sites.",
   "icons": {
     "48": "./assets/icons/rtr_closet.png"
@@ -52,7 +52,7 @@
   "homepage_url": "https://www.renttherunway.com",
   "incognito": "split",
   "input_components": "",
-  "minimum_chrome_version": "50",
+  "minimum_chrome_version": "40",
   "nacl_modules": [],
   "offline_enabled": true,
   "omnibox": {
@@ -67,7 +67,7 @@
   "short_name": "iRTR",
   "signature": "",
   "tts_engine": {},
-  "version_name": "In the beginning",
+  "version_name": "Hot Rod Styling",
   "web_accessible_resources": [
     "./assets/*"
   ]

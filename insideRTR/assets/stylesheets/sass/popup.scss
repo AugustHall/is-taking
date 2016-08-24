@@ -1,0 +1,63 @@
+body {
+  font-size: 14px;
+  width: 400px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+}
+
+section {
+  cursor: pointer;
+  border-bottom: 2px solid gray;
+  padding: 10px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &.admins {
+    padding: 0;
+    display: flex;
+  }
+
+  aside {
+    padding: 10px;
+    flex: 1 1 50%;
+
+    &:first-child {
+      border-right: 2px solid gray;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
+h3 {
+  font: 1.3em/1.5em Georgia, sans-serif;
+  line-height: 50px;
+  margin: 0;
+}
+
+ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+
+  &.expanded {
+    display: block;
+  }
+}
+
+li {
+  padding-left: 20px;
+  font: 1em/2em Georgia, sans-serif;
+
+  &:hover {
+    background-color: #A1A3E8;
+  }
+}
+
+a {
+  text-decoration: none;
+}
