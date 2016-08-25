@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Inside RTR",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Rent the Runway's internal tools and sites.",
   "icons": {
     "48": "./assets/icons/rtr_closet.png"
