@@ -13,11 +13,14 @@
   <h3 style="width: 100%; text-align: center;">Email me to ask WTF - <a href="mailto:wtf@august.wtf?subject=What%20The%20Fuck?&body=Let%20me%20ask%20you%20something....WTF?">wtf@august.wtf</a></h3>
 
   <button onclick="myFunction()">Click me</button>
-	<p id="demo"></p>
+<p id="demo2"></P	
+<p id="demo"></p>
 <script>
 function myFunction() {
     const devicePixelRatio = window.devicePixelRatio;
+    const userAgent = navigator.userAgent;
     document.getElementById("demo").innerHTML = devicePixelRatio;
+    document.getElementById("demo2").innerHTML = userAgent;
 }
 </script>
 </body>
