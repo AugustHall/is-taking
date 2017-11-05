@@ -15,11 +15,20 @@
   <button onclick="myFunction()">Click me</button>
 <p id="demo2"></p>	
 <p id="demo"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+document.getElementById("demo3").innerHTML = 
+"Screen width is " + screen.width;
+document.getElementById("demo4").innerHTML = 
+"Screen height is " + screen.height;
+</script>
 <script>
 function myFunction() {
     const devicePixelRatio = window.devicePixelRatio;
     const userAgent = navigator.userAgent;
-    document.getElementById("demo").innerHTML = devicePixelRatio;
+    document.getElementById("demo").innerHTML = "device pixel ratio " + devicePixelRatio;
     document.getElementById("demo2").innerHTML = userAgent;
 }
 </script>
