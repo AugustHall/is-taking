@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  standupbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: standupbot:latest
+    environment:
+      - SLACK_TOKEN=xoxb-293732600241-RDTPmLHP1t1fJRNfWdFdczTP
+    ports:
+      - "8080:9229"
+    volumes:
+      - ".:/app:delegated"
+    command: debug

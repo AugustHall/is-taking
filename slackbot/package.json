@@ -1,0 +1,17 @@
+{
+  "name": "standupbot",
+  "version": "1.0.0",
+  "description": "Rent the Runway standup slackbot",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "^3.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run tests",
+    "debug": "node index.js --inspect"
+  },
+  "author": "Tory Peterschild & August Hall",
+  "license": "MIT"
+}
