@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "npm run tests",
-    "debug": "node index.js --inspect"
+    "debug": "node --inspect-brk=0.0.0.0:9229 index.js"
   },
   "author": "Tory Peterschild & August Hall",
   "license": "MIT"

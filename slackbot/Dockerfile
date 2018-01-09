@@ -2,7 +2,7 @@
 # docker build -t standupbot --no-cache --pull .
 
 # Run container from image:
-# docker run -it --rm -v $(pwd):/app -p 8080:8888 standupbot
+# docker run -it --rm -v $(pwd):/app -p 9229:9229 standupbot
 
 FROM node:latest
 
