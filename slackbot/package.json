@@ -13,5 +13,6 @@
     "debug": "node --inspect-brk=0.0.0.0:9229 index.js"
   },
   "author": "Tory Peterschild & August Hall",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:AugustHall/wtf.git"
 }
